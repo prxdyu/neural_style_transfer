@@ -112,7 +112,7 @@ def stylize(content_image_path,style_image_path,total_steps=6000,learning_rate=0
 
     if step%10==0:
         print(f"The total loss at step{step} is {total_loss}")
-        save_image(generated_image,f"generated_image_{step}.png")
+        save_image(generated_image,f"generate_images/generated_image_{step}.png")
 
   
 
